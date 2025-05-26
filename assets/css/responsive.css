@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1024px) {
+    /* header section  */
+    #mobile-menu-open-icon{
+        display: block;
+    }
+    #header-menu{
+        display: none;
+    }
+    .logo{
+        width: 100%;
+    }
+    #header-menu ul li {
+        display: block;
+        padding: 5px 0px;
+    }
+    #header-menu {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        z-index: 999;
+        width: 90%;
+        background-color: var(--whiteColor);
+        margin: 0px 5%;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+        border-radius: 10px;
+        box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+    }
+    #header-menu .primary-button a {
+        border-radius: 0px 0px 10px 10px;
+        margin-top: 10px;
+    }
+    /* header section  */
+
+    /* pain section  */
+    .pain.flex {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .pain-text {
+        order: 2;
+    }
+    /* pain section  */
+  }

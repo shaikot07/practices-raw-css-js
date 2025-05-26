@@ -1,0 +1,146 @@
+/* global css  */
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing:border-box
+}
+.container{
+    max-width:1266px;
+    padding: 0px 25px;
+    margin: 0 auto;
+    display: block;
+}
+ul{
+    list-style-type: none;
+    text-align:center;
+}
+li{
+    display:inline-block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+}
+img{
+    width:100%;
+}
+.flex{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+/* global css  */
+
+/* header section css */
+.header-section{
+    width:100%;
+    padding: 16px 0px;
+}
+.header-wrap{
+    width: 100%;
+}
+.logo a {
+    max-width: 68px;
+    max-height: 32px;
+    width: 100%;
+}
+#header-menu a{
+    display: block;
+    padding: 0px 12px;
+    text-transform: capitalize;
+    color:var(--secondaryColor);
+    transition: 0.3s;
+}
+#header-menu a:hover{
+    color:var(--primaryColor);
+}
+#header-menu .primary-button a{
+    display: block;
+    padding: 14px 25px;
+    text-transform: capitalize;
+    color:var(--whiteColor);
+    background-color: var(--primaryColor);
+    border-radius:50px;
+    transition: 0.3s;
+}
+#header-menu .primary-button a:hover{
+    background-color: var(--brownColor);
+}
+#mobile-menu-open-icon, #mobile-menu-close-icon{
+    display: none;
+}
+#mobile-menu-open-icon a, #mobile-menu-close-icon a{
+    color:var(--primaryColor);
+    font-size:25px;
+    transition:0.3s;
+}
+#mobile-menu-open-icon a:hover, #mobile-menu-close-icon a:hover{
+    color:var(--brownColor);
+}
+/* header section css */
+
+/* pain section css */
+.pain-section{
+    background-color: var(--brownColor);
+    padding:80px 0px
+}
+
+.pain.flex {
+    gap: 20px;
+}
+.pain-img, .pain-text{
+    max-width: 584px;
+}
+.pain-text h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size:48px;
+    line-height: 58px;
+    color:var(--whiteColor);
+    text-transform: capitalize;
+}
+.pain-text h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--whiteColor);
+    padding: 10px 0px;
+}
+.pain-text p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color:var(--whiteColor);
+}
+.pain-text ul {
+    padding-top: 35px;
+}
+.pain-text ul li{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color:var(--whiteColor);
+    text-align: left;
+    justify-content: left;
+    padding-bottom:20px;
+}
+.circle{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: var(--primaryColor);
+    margin-right: 10px;
+}
+.pain-text img{
+    width: 17px;
+    margin-right: 10px;
+}
+/* pain section css */
+
+/* header section css */
